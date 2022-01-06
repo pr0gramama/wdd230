@@ -80,7 +80,7 @@ a:hover {
 footer {
   display: grid;
   justify-items: center;
-  background-color: rgb(8, 122, 167);
+  background-color: #4d194dff;
   color: white;
   border-radius: 15px;
   box-shadow: 5px 5px 5px grey;
