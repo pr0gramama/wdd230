@@ -98,8 +98,3 @@ footer {
   font-family: Oswald, Arial, Helvetica, sans-serif;
   margin-top: -10px;
 }
-@media screen and (max-width: 600px) {
-  #content {
-    grid-template-rows: repeat(3, auto);
-  }
-}
