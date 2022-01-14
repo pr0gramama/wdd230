@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+:root {
+  --russian-violet: #4d194dff;
+  --african-violet: #b78dccff;
+  --cornsilk: #fef3d5;
+  --metallic-seaweed: #2a7f87ff;
+  --charcoal: #1c3b4cff;
+}
+body {
+  margin: auto;
+  max-width: 600px;
+}
+
+#content {
+  max-width: 500px;
+  grid-template-rows: 2fr 3fr 1fr;
+  background-color: #fef3d5; /* Cornsilk */
+  margin: auto;
+}
+
+header {
+  display: grid;
+  grid-template-columns: auto;
+  margin-top: 1em;
+  justify-items: center;
+  background-color: #4d194dff;
+  color: white;
+  box-shadow: 5px 5px 5px grey;
+  padding: 1rem;
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 0.75rem;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  color: white;
+  margin-left: 15px;
+}
+
+.intro-box {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+main {
+  margin: 20px;
+}
+
+h2 {
+  font-size: 0.5rem;
+}
+
+.headline1 {
+  font-family: Oswald, Arial, Helvetica, sans-serif;
+}
+
+hr.divider-line {
+  border-top: 1px solid darkslategray;
+}
+
+.lesson-list {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style-type: disc;
+  color: #4d194dff;
+}
+
+a {
+  font-family: Oswald, Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 14pt;
+  color: #2a7f87ff;
+  margin-left: 5px;
+}
+a:hover {
+  color: #b78dccff;
+}
+
+footer {
+  display: grid;
+  justify-items: center;
+  background-color: #4d194dff;
+  color: white;
+  box-shadow: 5px 5px 5px grey;
+  padding: 20px;
+  padding: 10px;
+  max-width: 100%;
+}
+
+.copywrite-footer {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+
+.lastupdated-footer {
+  font-family: Oswald, Arial, Helvetica, sans-serif;
+  margin-top: -10px;
+}
