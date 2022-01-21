@@ -1,0 +1,97 @@
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #3c6e71; /* Ming (Blue) */
+  --secondary-color: #ffffff; /* White */
+  --accent1-color: #353535; /* Jet */
+  --accent2-color: #d9d9d9; /* Gainsboro */
+  --accent3-color: #bf4b3d; /* Deep Chestnut */
+
+  --heading-font: "Saira Semi Condensed";
+  --paragraph-font: "Overpass";
+}
+
+html {
+  background-color: var(--primary-color);
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+}
+
+body {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: var(--secondary-color);
+  padding: 1em;
+}
+
+header, footer {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+header,
+nav,
+footer {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+header {
+  border-radius: 15px 15px 0px 0px;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+	background-color: var(--accent1-color);
+  font-family: var(--paragraph-font);
+  justify-content: center;
+  text-align: center;
+}
+
+nav a {
+  display: block;
+	color: var(--accent2-color);
+	padding: 5px 5px;
+	text-decoration: none;
+	margin-right: 35px;
+  font-size: 1rem;
+  
+}
+
+nav li {
+  list-style: none;
+}
+
+nav a:hover {
+	background-color: var(--accent2-color);
+	color: var(--accent3-color);
+  font-weight: bolder;
+}
+
+p {
+  font-family: var(--paragraph-font);
+}
+
+footer {
+  font-family: var(--paragraph-font);
+  font-size: .75rem;
+  border-radius: 0px 0px 15px 15px;
+}
+

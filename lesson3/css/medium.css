@@ -1,0 +1,22 @@
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #3c6e71; /* Ming (Blue) */
+    --secondary-color: #ffffff; /* White */
+    --accent1-color: #353535; /* Jet */
+    --accent2-color: #d9d9d9; /* Gainsboro */
+    --accent3-color: #bf4b3d; /* Deep Chestnut */
+  
+    --heading-font: "Saira Semi Condensed";
+    --paragraph-font: "Overpass";
+  }
+
+@media (min-width: 37.5em) {
+  
+  
+  
+  nav ul {
+    display: flex;
+  }
+  
+  
+}
