@@ -89,6 +89,10 @@ p {
   font-family: var(--paragraph-font);
 }
 
+li {
+  font-family: var(--paragraph-font);
+}
+
 footer {
   font-family: var(--paragraph-font);
   font-size: .75rem;
