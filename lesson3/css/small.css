@@ -128,7 +128,7 @@ li {
 
 .scenarios {
   margin: 20px;
-  color:var(--accent2-color);
+  color:var(--secondary-color);
   background-color: var(--accent3-color);
   padding: 10px;
   border-radius: 15px;
