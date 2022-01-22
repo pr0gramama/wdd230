@@ -127,6 +127,11 @@ li {
 
 .scenarios h2 {
   margin-top: -5px;
+  margin-bottom: 5px;
+}
+
+.scenarios li {
+  margin-left: 20px;
 }
 
 /* Typography CSS */
