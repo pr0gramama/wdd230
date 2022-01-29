@@ -151,7 +151,7 @@ main {
   margin: 15px;
 }
 
-main section {
+main div {
   font-family: var(--paragraph-font);
   background-color: #355b8c40;
   padding: 0.5em;
@@ -163,6 +163,7 @@ main section {
 .news-release,
 .join {
   height: 100px;
+  font-size: 10pt;
 }
 
 .join {
@@ -174,7 +175,7 @@ main section {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(2, 2fr);
-  background-color: #355b8c40;
+  
 }
 
 .spotlight3 {
