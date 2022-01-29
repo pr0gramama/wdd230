@@ -1,7 +1,7 @@
 @media only screen and (min-width: 64rem) {
   html {
     max-width: 1200px;
-    margin:auto;
+    margin: auto;
   }
   nav ul li a {
     padding: 0.5rem 1rem;
@@ -21,7 +21,7 @@
     border: none;
     border-right: 1px solid rgba(0, 0, 0, 0.3);
   }
-  
+
   main {
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: repeat(3, 1fr);
@@ -39,7 +39,6 @@
 
   .join {
     grid-area: 3 / 1 / 4 / 2;
-
   }
 
   .event {
@@ -59,7 +58,6 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
-    
   }
 
   .spotlight1 {

@@ -15,17 +15,15 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(5, 1fr);
     column-gap: 10px;
-    padding:1em;
+    padding: 1em;
   }
 
   .hero {
     grid-area: 1 / 1 / 2 / 4;
-    
   }
 
   .news-release {
     grid-area: 2 / 1 / 3 / 4;
-    
   }
 
   .join {
@@ -36,12 +34,10 @@
 
   .event {
     grid-area: 5 / 1 / 6 / 3;
-    
   }
 
   .weather {
     grid-area: 5 / 3 / 6 / 4;
-    
   }
 
   .spotlight {
@@ -100,11 +96,12 @@
     align-items: center;
   }
 
-  .my-name, .wdd-project {
+  .my-name,
+  .wdd-project {
     border-left: 1px solid rgba(255, 255, 255, 0.3);
     padding-left: 1em;
   }
-  
+
   .lastupdated-footer {
     margin-top: 5px;
   }
