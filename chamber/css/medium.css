@@ -1,4 +1,4 @@
-@media screen and (min-width: 40rem) {
+@media screen and (min-width: 32rem) {
   #logo img {
     height: 100px;
     width: 100px;
@@ -95,15 +95,17 @@
   }
 
   .footer-lower {
-    grid: 1fr / 1fr 1fr;
-    flex-direction: row;
-    align-items: center;
+    display: flex;
     justify-content: center;
-    text-align: center;
+    align-items: center;
   }
-  .copywrite-footer,
-  .my-name {
-    border-right: 2px solid rgba(255, 255, 255, 0.3);
-    padding-right: 0.8rem;
+
+  .my-name, .wdd-project {
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    padding-left: 1em;
+  }
+  
+  .lastupdated-footer {
+    margin-top: 5px;
   }
 }

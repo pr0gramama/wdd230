@@ -37,8 +37,8 @@ header,
 footer {
   background-color: var(--primary-color);
   border-radius: 15px;
-  padding: 1rem;
   margin: 20px;
+  padding: 1rem;
 }
 
 #logo-nav {
@@ -53,6 +53,8 @@ footer {
   width: 75px;
   border-radius: 15px;
   border: 5px solid #bf4b3d;
+  box-shadow: 4px 4px 6px black;
+  margin: 5px;
 }
 
 header h1 {
@@ -91,6 +93,7 @@ header h1 {
   background-color: rgba(0, 0, 0, 0.2);
   text-align: center;
   padding: 0.5em;
+  border: 1px solid rgba(255, 255, 255, 0.3)
 }
 
 nav button {
@@ -149,7 +152,7 @@ nav ul.open {
 
 main {
   display: grid;
-  grid: repeat(5, 1fr)/lfr;
+  grid-template-rows: repeat(5, 1fr);
   grid-row-gap: 10px;
   padding: 1em;
   font-size: 0.8em;
@@ -192,8 +195,9 @@ footer {
 }
 
 footer img {
-  height: 75px;
-  width: 75px;
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
   padding: 5px;
 }
 
@@ -225,19 +229,19 @@ footer img {
 .footer-lower {
   margin-top: 10px;
   padding-top: 5px;
-  font-size: 8pt;
+  font-size: 10pt;
   text-align: center;
 }
 
 .my-name {
-  font-size: 10pt;
+  font-size: 12pt;
 }
 
 .wdd-project {
-  font-size: 8pt;
+  font-size: 10pt;
 }
 
 .lastupdated-footer {
-  font-size: 8pt;
+  font-size: 10pt;
   font-style: italic;
 }
