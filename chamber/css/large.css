@@ -1,0 +1,73 @@
+@media only screen and (min-width: 64rem) {
+  nav ul li a {
+    padding: 0.5rem 1rem;
+  }
+
+  nav button {
+    display: none;
+  }
+
+  nav ul#primaryNav {
+    display: flex;
+    margin-left: 2vw;
+    border-left: 1px solid rgba(0, 0, 0, 0.3);
+  }
+
+  nav ul li a {
+    border: none;
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+  }
+  
+  main {
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 10px;
+  }
+
+  .hero {
+    height: initial;
+    grid-area: 1 / 2 / 3 / 3;
+  }
+
+  .news-release {
+    grid-area: 3 / 2 / 4 / 3;
+  }
+
+  .join {
+    grid-area: 3 / 1 / 4 / 2;
+
+  }
+
+  .event {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+
+  .weather {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+
+  .spotlight {
+    grid-area: 1 / 3 / 4 / 4;
+    height: initial;
+  }
+
+  .spotlight {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    
+  }
+
+  .spotlight1 {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+
+  .spotlight2 {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+
+  .spotlight3 {
+    grid-area: 3 / 1 / 4 / 2;
+    display: initial;
+  }
+}

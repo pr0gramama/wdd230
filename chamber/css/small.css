@@ -1,0 +1,242 @@
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #3c6e71; /* Ming (Blue) */
+  --secondary-color: #ffffff; /* White */
+  --accent1-color: #353535; /* Jet */
+  --accent2-color: #d9d9d9; /* Gainsboro */
+  --accent3-color: #bf4b3d; /* Deep Chestnut */
+
+  --heading-font: "Saira Semi Condensed", Sans-Serif, Helvetica;
+  --paragraph-font: "Overpass", Sans-Serif, Helvetica;
+}
+
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1,
+p {
+  margin: 0 2vw;
+}
+
+body {
+  min-width: 300px;
+  margin: auto;
+}
+
+header,
+footer {
+  background-color: var(--primary-color);
+  border-radius: 15px;
+  padding: 1rem;
+  margin: 20px;
+}
+
+#logo-nav {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+#logo img {
+  height: 75px;
+  width: 75px;
+  border-radius: 15px;
+  border: 5px solid #bf4b3d;
+}
+
+header h1 {
+  font-family: var(--heading-font);
+  font-size: 16pt;
+  text-align: center;
+  color: var(--secondary-color);
+  text-shadow: 4px 4px 6px black;
+}
+
+.fa {
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 4px 4px 6px black;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+#today-date {
+  font-family: var(--heading-font);
+  color: var(--secondary-color);
+  background-color: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 0.5em;
+}
+
+nav button {
+  margin: 0.2rem 2vw;
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+}
+
+nav {
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  display: block;
+  padding: 0.8rem;
+  text-decoration: none;
+  font-family: var(--paragraph-font);
+  color: var(--secondary-color);
+}
+nav ul li.active a {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+nav ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+  display: none;
+}
+nav ul.open {
+  display: block;
+}
+
+#hamburgerBtn span:nth-child(1) {
+  display: block;
+}
+#hamburgerBtn span:nth-child(2) {
+  display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1) {
+  display: none;
+}
+#hamburgerBtn.open span:nth-child(2) {
+  display: block;
+}
+
+main {
+  display: grid;
+  grid: repeat(5, 1fr)/lfr;
+  grid-row-gap: 10px;
+  padding: 1em;
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+main section {
+  font-family: var(--paragraph-font);
+  background-color: #355b8c40;
+  padding: 0.5em;
+}
+
+.hero, .event, .weather, .news-release, .join {
+  height: 100px;
+}
+
+
+
+.join {
+  display: none;
+}
+
+.spotlight {
+  height: 100px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 2fr);
+  background-color: #355b8c40;
+}
+
+.spotlight3 {
+  display: none;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  color: var(--secondary-color);
+}
+
+footer img {
+  height: 75px;
+  width: 75px;
+  padding: 5px;
+}
+
+
+.contact-info {
+  text-align: center;
+}
+
+.site-name {
+  font-weight: bold;
+  font-style: italic;
+  padding-bottom: 3px;
+}
+
+.address1,
+.address2 {
+  font-size: 10pt;
+  font-style: italic;
+}
+
+.email,
+.phone,
+.location {
+  font-size: 10pt;
+  margin-top: 8px;
+}
+
+
+.footer-lower {
+  margin-top: 10px;
+  padding-top: 5px;
+  font-size: 8pt;
+  text-align: center;
+}
+
+.my-name {
+  font-size: 10pt;
+}
+
+.wdd-project {
+  font-size: 8pt;
+}
+
+.lastupdated-footer {
+  font-size: 8pt;
+  font-style: italic;
+}

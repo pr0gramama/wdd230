@@ -1,0 +1,109 @@
+@media screen and (min-width: 40rem) {
+  #logo img {
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+    border: 5px solid #bf4b3d;
+  }
+
+  #logo-nav {
+    justify-content: space-between;
+  }
+
+  .main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    column-gap: 10px;
+    padding:1em;
+  }
+
+  .hero {
+    grid-area: 1 / 1 / 2 / 4;
+    
+  }
+
+  .news-release {
+    grid-area: 2 / 1 / 3 / 4;
+    
+  }
+
+  .join {
+    grid-area: 4 / 1 / 5 / 4;
+    display: initial;
+    padding: 0.5em;
+  }
+
+  .event {
+    grid-area: 5 / 1 / 6 / 3;
+    
+  }
+
+  .weather {
+    grid-area: 5 / 3 / 6 / 4;
+    
+  }
+
+  .spotlight {
+    height: 100px;
+    grid-area: 3/ 1 / 4 / 4;
+  }
+
+  .spotlight {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+
+  .spotlight1 {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+
+  .spotlight2 {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+
+  .footer-upper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .name-address {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(2, 1fr);
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-upper img {
+    grid-area: 1 / 1 / 3 / 2;
+  }
+
+  .site-name {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+
+  .address {
+    grid-area: 2 / 2 / 3 / 3;
+  }
+
+  .footer-lower {
+    grid: 1fr / 1fr 1fr;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .copywrite-footer,
+  .my-name {
+    border-right: 2px solid rgba(255, 255, 255, 0.3);
+    padding-right: 0.8rem;
+  }
+}
