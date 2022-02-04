@@ -11,14 +11,8 @@ try {
   alert('Error with code or your browser does not support Locale');
 }
 
-const date3 = document.querySelector('#updated');
+document.querySelector("#lastModified").textContent = `Last Modified: ${document.lastModified}`;
 
-try {
-  const options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'};
-  date3.textContent = new Date().toLocaleDateString('en-UK', options);
-} catch (e) {
-  alert('Error with code or your browser does not support Locale');
-}
 function toggleMenu() {
     document.getElementById("primaryNav").classList.toggle("open");
     document.getElementById("hamburgerBtn").classList.toggle("open");
@@ -27,3 +21,13 @@ function toggleMenu() {
 const x = document.getElementById("hamburgerBtn");
 x.onclick = toggleMenu;
 
+function setActive() {
+  aObj = document.getElementById('nav').getElementsByTagName('a');
+  for(i=0;i<aObj.length;i++) { 
+    if(document.location.href.indexOf(aObj[i].href)>=0) {
+      aObj[i].className='active';
+    }
+  }
+}
+
+window.onload = setActive;

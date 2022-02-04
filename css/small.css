@@ -97,7 +97,6 @@ footer {
   margin-top: 10px;
 }
 
-.lastupdated-footer {
+#lastModified {
   font-family: Oswald, Arial, Helvetica, sans-serif;
-  margin-top: -10px;
 }

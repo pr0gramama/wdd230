@@ -110,7 +110,7 @@ nav ul li a {
   font-family: var(--paragraph-font);
   color: var(--secondary-color);
 }
-nav ul li.active a {
+nav ul li .active  {
   background-color: rgba(0, 0, 0, 0.2);
   color: #fff;
 }
@@ -233,7 +233,8 @@ footer img {
   font-size: 10pt;
 }
 
-.lastupdated-footer {
+#lastModified {
   font-size: 10pt;
   font-style: italic;
+  margin-top: 5px;
 }
