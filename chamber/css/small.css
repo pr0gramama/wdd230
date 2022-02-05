@@ -80,10 +80,8 @@ header h1 {
 #today-date {
   font-family: var(--heading-font);
   color: var(--secondary-color);
-  background-color: rgba(0, 0, 0, 0.2);
   text-align: center;
   padding: 0.5em;
-  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 nav button {
@@ -110,7 +108,7 @@ nav ul li a {
   font-family: var(--paragraph-font);
   color: var(--secondary-color);
 }
-nav ul li .active  {
+nav ul li .active {
   background-color: rgba(0, 0, 0, 0.2);
   color: #fff;
 }
@@ -143,41 +141,149 @@ nav ul.open {
 
 main {
   display: grid;
-  grid-template-rows: repeat(5, 1fr);
+  grid-template-rows: repeat(5, auto);
   grid-row-gap: 10px;
   padding: 1em;
-  font-size: 0.8em;
-  font-style: italic;
   margin: 15px;
 }
-
-main div {
-  font-family: var(--paragraph-font);
-  background-color: #355b8c40;
-  padding: 0.5em;
-}
-
-.hero,
 .event,
 .weather,
 .news-release,
-.join {
-  height: 100px;
-  font-size: 10pt;
+.join,
+.spotlight {
+  font-family: var(--paragraph-font);
+  padding: 0.5em;
+  color: white;
+  box-shadow: 4px 4px 6px var(--accent1-color);
+}
+.hero {
+  position: relative;
+}
+
+#hero-image {
+  max-width: 100%;
+  opacity: 0.6;
+}
+
+.joinUs-btn h2 {
+  position: absolute;
+  font-family: var(--heading-font);
+  font-style: initial;
+  color: var(--accent1-color);
+  margin-top: -30%;
+  margin-left: 10px;
+  font-size: 1.7em;
+  text-shadow: 0 0 4px white;
+}
+
+.joinUs-btn button {
+  position: absolute;
+  margin-top: -18%;
+  margin-left: 20%;
+  background-color: #bf4b3d;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  padding: 1em;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  font-family: var(--paragraph-font);
+  font-size: 15px;
+  cursor: pointer;
+  box-shadow: 3px 3px 6px var(--accent1-color);
+}
+
+.event {
+  text-align: center;
+  background-color: #353535;
+}
+
+.event h2 {
+  font-size: 16pt;
+}
+
+.event img {
+  margin-top: -15px;
+  max-width: 40%;
+}
+
+.event a {
+  color: yellow;
+}
+
+.event a:hover {
+  color: white;
+}
+
+.news-release {
+  background-color: #353535;
+  font-style: initial;
+  text-align: center;
+}
+
+.news-release h3 {
+  font-weight: bold;
+  font-size: 2em;
+  text-shadow: 0 0 8px white;
+  margin-bottom: 10px;
+}
+.news-release p {
+  font-size: 22px;
 }
 
 .join {
   display: none;
 }
-
-.spotlight {
-  height: 100px;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(2, 2fr);
-  
+.weather {
+  background-color: #353535;
+  margin: 20px;
+  text-align: center;
 }
 
+.weather img {
+  max-width: 100%;
+}
+
+.spotlight {
+  background-color: #353535;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.spotlight a {
+  color: yellow;
+}
+.spotlight a:hover {
+  color: white;
+}
+
+.spotlight1 {
+  background-color: var(--primary-color);
+}
+
+.spotlight1 img {
+  margin-top: -15px;
+  padding: 0.5em;
+  max-width: 60%;
+}
+
+.spotlight2 {
+  background-color: var(--primary-color);
+  margin-top: 5px;
+}
+
+.spotlight2 img {
+  margin-top: -15px;
+  padding: 0.5em;
+  max-width: 60%;
+}
+
+.spotlight3 img {
+  margin-top: -15px;
+  max-width: 60%;
+}
 .spotlight3 {
   display: none;
 }
