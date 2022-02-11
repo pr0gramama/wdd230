@@ -22,14 +22,16 @@
     <title>Pinnacle Chamber of Commerce</title>
   </head>
   <body>
+    <div id="bannerDate"></div>
+    <div id="banner"></div>
     <header>
       <section id="logo-nav">
-        <div id="logo">
+        <picture id="logo">
           <img
-            src="../chamber/images/Pinnacle-Logo.png"
+            src="../chamber/images/Pinnacle-Logo_webp.webp"
             alt="Pinnacle City Chamber of Commerce Logo"  width="100"
           />
-        </div>
+        </picture>
         <h1>Pinnaccle Chamber of Commerce</h1>
         <div id=social-media>
           <a href="https://www.facebook.com" target="_blank" class="facebook"><img src="../chamber/images/facebook-logo.png" alt="facebook logo"></a>
@@ -60,7 +62,11 @@
     </header>
       <main>
         <section class="hero">
-          <img id="hero-image" src="../chamber/images/mountain_hero.jpg" alt="Mountain on a sunny day with fluffy clouds in the blue sky">
+          <picture>
+            <source srcset="../chamber/images/wdd230-org_medium.webp"media="(min-width: 512px) and (max-width: 1023px)">
+            <source srcset="../chamber/images/wdd230-org_large.webp" media="(min-width: 1024px)">
+            <img id="hero-image" src="../chamber/images/wdd230-org_small.webp" alt="Mountain on a sunny day with fluffy clouds in the blue sky">
+          </picture>
           <div class="joinUs-btn">
             <h2>Welcome to Pinnacle City</h2>
             <button>Join the Chamber</button>
@@ -77,6 +83,13 @@
         <div class="weather">
           <p>Weather</p>
           <img src="../chamber/images/weather.jpg" alt="A photo of a weather forecast">
+          <hr>
+          <section>
+            <p><strong>Current:</strong><span id="currentTemp"> 38</span> &deg;F</p>
+            <p><strong>Chance of Precipitation:</strong><span>0</span> %</p>
+            <p><strong>Wind:</strong><span id="wind"> 5</span> mph <span id="windDirection">NW</span></p>
+            <p><strong>Wind Chill:</strong><span id="windchill"></span> &deg;F</p>  
+          </section>
         </div>
         <div class="news-release">
           <section>
@@ -146,6 +159,7 @@
         </div>
         <div id="lastModified"></div>
       </footer>
-    <script src="../chamber/js/style.js"></script>
+    <script src="../chamber/js/script.js"></script>
+    <script src="../chamber/js/windchill.js"></script>
   </body>
 </html>

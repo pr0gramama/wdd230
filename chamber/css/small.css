@@ -33,6 +33,15 @@ body {
   margin: auto;
 }
 
+#banner {
+  font-family: var(--heading-font);
+  font-size: 14pt;
+  color: white;
+  background-color: var(--accent3-color);
+  text-align: center;
+  padding: 1rem;
+}
+
 header,
 footer {
   background-color: var(--primary-color);
@@ -242,7 +251,7 @@ main {
 }
 
 .weather img {
-  max-width: 100%;
+  max-width: 50%;
 }
 
 .spotlight {
