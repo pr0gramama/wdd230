@@ -10,7 +10,7 @@
     justify-content: space-between;
   }
 
-  .main {
+  .home {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(5, 1fr);
@@ -155,5 +155,13 @@
 
   .lastupdated-footer {
     margin-top: 5px;
+  }
+
+
+/* Discover Page CSS */
+  #photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
   }
 }
