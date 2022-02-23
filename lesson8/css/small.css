@@ -1,8 +1,8 @@
 :root {
   --primary-color: #9a031e; /* Ruby Red */
   --secondary-color: #586834; /* Dark Olive green */
-  --accent1-color: #faea84; /* Yellow Crayola */
-  --accent2-color: #dda15e; /* Earth Yellow */
+  --accent1-color: #f8f1c4; /* Yellow Crayola */
+  --accent2-color: #e9c193; /* Earth Yellow */
 }
 
 table {
