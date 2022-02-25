@@ -355,7 +355,7 @@ footer img {
   margin-top: 5px;
 }
 
-/* Discover Page CSS */
+/* -----------------Discover Page CSS------------------- */
 #discover {
   background-color: var(--accent2-color);
   margin: 30px;
@@ -381,7 +381,6 @@ footer img {
 .photo {
   padding: 1em;
   background-color: #353535;
-  
 }
 
 .photo img {
@@ -391,18 +390,10 @@ footer img {
   /* transition: 1s ease; */
 }
 
-/* .photo img:hover {
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
-  transition: 1s ease;
-} */
-
 .photo {
   padding: 20px;
   margin: 10px;
   border-radius: 20px;
-  
 }
 
 .photo p {
@@ -414,4 +405,94 @@ footer img {
   margin: 1em;
   padding: 1em;
   box-shadow: 4px 4px 6px grey;
+}
+
+/* ---------------Join------------------ */
+main {
+  padding: 0 2%;
+  min-height: 20rem;
+  font-family: var(--heading-font);
+}
+
+form fieldset {
+  margin: 2rem 0;
+  border: 3px solid var(--primary-color);
+  border-radius: 10px;
+  padding: 0.5rem 2%;
+}
+
+form legend {
+  color: white;
+  margin: 0 0.5rem;
+  padding: 0.5rem;
+  background-color: var(--accent1-color);
+  border-radius: 6px;
+  box-shadow: grey 4px 4px 6px;
+}
+form label.top,
+form div {
+  display: block;
+  padding-top: 1rem;
+  color: var(--accent3-color);
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+form label.top input,
+form label.top select,
+form label.top textarea {
+  -webkit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #999;
+  border-radius: 4px;
+  padding: 0.75rem;
+  color: #555;
+  width: 100%;
+  max-width: 20rem;
+  background-color: rgba(60, 110, 113, 0.15);
+}
+
+form label span {
+  padding: 0 0.5rem;
+  background-color: #bf4b3d;
+  color: white;
+  border-radius: 8px;
+}
+
+form label.sbs {
+  display: block;
+  padding: 0.75rem 0;
+}
+
+form labelhover {
+  background-color: #3c6e71;
+}
+
+form input.submitBtn {
+  border: none;
+  background-color: var(--accent3-color);
+  color: white;
+  border-radius: 1rem;
+  padding: 0.75rem;
+  margin: 0 0 3rem 2%;
+  width: 96%;
+  max-width: 20rem;
+  font-size: 15pt;
+}
+
+form input.submitBtn:hover {
+  background-color: #3c6e71;
+}
+
+form label.top input:required {
+  border-left: var(--accent3-color) solid 8px;
+}
+
+form label.top input:required:valid {
+  border-left: #3c6e71 solid 8px;
+}
+
+.benefits {
+  display: none;
 }

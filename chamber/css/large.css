@@ -107,9 +107,20 @@
     margin-top: 5px;
   }
 
-  /* Discover Page CSS */
+  /* -----------Discover Page CSS----------- */
   #photos {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
+}
+
+/* ---------------Join CSS----------------- */
+
+form label.sbs {
+  padding: .4rem 0;
+}
+
+.benefits {
+  display: block;
+  font-family: var(--paragraph-font);
 }

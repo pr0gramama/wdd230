@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The Chamber of Commerce Project by Mary Ann Overson in WDD 230: Web Frontend Development at Brigham Young University - Idaho"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@200&family=Saira+Semi+Condensed:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <title>Pinnacle Chamber of Commerce - Join</title>
+  </head>
+  <body>
+    <div id="bannerDate"></div>
+    <div id="banner"></div>
+    <header>
+      <section id="logo-nav">
+        <picture id="logo">
+          <img
+            src="../chamber/images/Pinnacle-Logo_webp.webp"
+            alt="Pinnacle City Chamber of Commerce Logo"
+            width="100"
+          />
+        </picture>
+        <h1>Pinnaccle Chamber of Commerce</h1>
+        <div id="social-media">
+          <a href="https://www.facebook.com" target="_blank" class="facebook"
+            ><img src="../chamber/images/facebook-logo.png" alt="facebook logo"
+          /></a>
+          <a href="https://www.linkedin.com" target="_blank" class="linkedin"
+            ><img src="../chamber/images/linkedin-logo.png" alt="linkedin logo"
+          /></a>
+        </div>
+        <nav id="nav">
+          <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+          <ul id="primaryNav">
+            <li><a href="../chamber/index.html">Home</a></li>
+            <li class="active">
+              <a href="#">Discover</a>
+            </li>
+            <li>
+              <a href="#">Directory</a>
+            </li>
+            <li>
+              <a href="#">Join</a>
+            </li>
+            <li>
+              <a href="#">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <div id="today-date">
+        <p><span id="currentdate"></span></p>
+      </div>
+    </header>
+    <main>
+      <form method="get" action="thankyou.html">
+        <fieldset>
+          <legend>Primary Contact Information</legend>
+          <label class="top"
+            >First Name*<input type="text" name="fname" required
+          /></label>
+          <label class="top"
+            >Last Name*<input type="text" name="lname" required
+          /></label>
+          <label class="top"
+            >Phone*<input
+              type="tel"
+              name="phone"
+              placeholder="1235551234"
+              required
+          /></label>
+          <label class="top"
+            >Business Position<input
+              type="text"
+              name="code-mark"
+              pattern="[A-Za-z\s-]{7,}"
+              title="The Code Mark"
+          /></label>
+          <label class="top"
+            >Email*<input
+              type="email"
+              name="email"
+              placeholder="someone@gmail.com"
+              required
+          /></label>
+        </fieldset>
+        <fieldset>
+          <legend>Business Information</legend>
+          <label class="top"
+            >Name of Business<input type="text" name="text" required
+          /></label>
+          <label class="top"
+            >Tell us about your business:
+            <textarea
+              name="description"
+              id="description"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Membership</legend>
+          <div>Membership Level</div>
+          <label class="sbs"
+            ><input type="radio" name="audience" value="beginner" />
+            <span>Non Profit - no fee</span></label
+          >
+          <p class="benefits">
+            Free listing in our member directory and event calendar
+          </p>
+          <label class="sbs"
+            ><input type="radio" name="audience" value="intermediate" />
+            <span>Bronze - $20/month</span></label
+          >
+          <p class="benefits">
+            Free spotlight to advertise your business on our chamber website
+          </p>
+          <label class="sbs"
+            ><input type="radio" name="audience" value="beginner" />
+            <span>Silver - $30/month</span></label
+          >
+          <p class="benefits">
+            Free monthly luncheon and member forum with guest speakers
+          </p>
+          <label class="sbs"
+            ><input type="radio" name="audience" value="beginner" />
+            <span>Gold - $40/month</span></label
+          >
+          <p class="benefits">
+            Ribbon Cutting ceremony for your new business, open house,
+            anniversary, or remodel
+          </p>
+        </fieldset>
+        <label
+          ><input type="hidden" id="submitdate" name="submitdate" value=""
+        /></label>
+        <input type="submit" value="Join the Chamber" class="submitBtn" />
+      </form>
+    </main>
+    <footer>
+      S
+      <div class="footer-upper">
+        <div class="name-address">
+          <img src="../chamber/images/Pinnacle-Logo.png" alt="Pinnaccle Logo" />
+          <p class="site-name">Pinnacle City Chamber of Commerce</p>
+          <div class="address">
+            <p>42 Wallaby Way</p>
+            <p>Pinnacle City, UT 94444</p>
+          </div>
+        </div>
+        <div class="contact-info">
+          <p class="email">info@pinnacle.org</p>
+          <p class="phone">(700) 833-1337</p>
+          <p class="location">📍 Location Map</p>
+        </div>
+      </div>
+      <hr />
+      <div class="footer-lower">
+        <div class="copywrite-footer">
+          &copy; <span id="currentyear"></span> Pinnacle Chamber
+        </div>
+        <p class="my-name">Mary Ann Overson</p>
+        <p class="wdd-project">WDD 230 Project</p>
+      </div>
+      <div id="lastModified"></div>
+    </footer>
+    <script src="../chamber/js/script.js"></script>
+    <script src="../chamber/js/join.js" defer></script>
+  </body>
+</html>
