@@ -32,7 +32,8 @@ function displayProphets(prophet) {
   //img
   let image = document.createElement('img');
   image.src = prophet.imageurl;
-  image.setAttribute('alt', prophet.order);
+  
+  image.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname}, ${prophet.order} Latter-day President`);
   card.appendChild(image);
 
 
