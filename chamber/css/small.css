@@ -105,9 +105,15 @@ nav {
 }
 
 nav ul {
+  display: flex;
   list-style-type: none;
   padding: 0;
   margin: 0;
+  position: sticky;
+}
+
+nav ul li {
+  display: inline;
 }
 
 nav ul li a {
@@ -460,6 +466,10 @@ form label span {
   border-radius: 8px;
 }
 
+.benefits {
+  display: none;
+}
+
 form label.sbs {
   display: block;
   padding: 0.75rem 0;
@@ -493,6 +503,4 @@ form label.top input:required:valid {
   border-left: #3c6e71 solid 8px;
 }
 
-.benefits {
-  display: none;
-}
+
