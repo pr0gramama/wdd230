@@ -28,14 +28,17 @@ function displayMembers(member) {
     p2.textContent = `${member.phone}`;
     card.appendChild(p2);
     
+    //website
     let p3 = document.createElement("p");
-    p3.textContent = `${member.website}`
-    //img
-    let image = document.createElement('img');
-    image.src = member.imageurl;
+    p3.textContent = `${member.website}`;
+    card.appendChild(p3);
+
     
-    image.setAttribute('alt', `${member.name} Logo`);
-    card.appendChild(image);
+    // img
+    let logo = document.createElement('img');
+    logo.setAttribute("src", member.logo);
+    logo.setAttribute('alt', `${member.name} Logo`);
+    card.appendChild(logo);
     
     
     document.querySelector('div.cards').appendChild(card);
