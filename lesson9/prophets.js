@@ -34,7 +34,7 @@ function displayProphets(prophet) {
   image.src = prophet.imageurl;
   
     //alt description
-    
+    let order = ``;
     
     if (prophet.order === 1 && prophet.order != 11) {
         order = `${prophet.order}st`;
@@ -45,7 +45,6 @@ function displayProphets(prophet) {
     } else{
         order = `${prophet.order}th`;
     }
-    // console.log(prophet.order)
 
   image.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname}, ${order} Latter-day President`);
   card.appendChild(image);
