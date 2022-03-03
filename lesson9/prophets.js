@@ -33,10 +33,23 @@ function displayProphets(prophet) {
   let image = document.createElement('img');
   image.src = prophet.imageurl;
   
-  image.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname}, ${prophet.order} Latter-day President`);
+    //alt description
+    
+    
+    if (prophet.order === 1 && prophet.order != 11) {
+        order = `${prophet.order}st`;
+    } else if (prophet.order == 2 && prophet.order != 12) {
+        order = `${prophet.order}nd`;
+    } else if (prophet.order == 3 && prophet.order != 13) {
+        order = `${prophet.order}rd`;
+    } else{
+        order = `${prophet.order}th`;
+    }
+    // console.log(prophet.order)
+
+  image.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname}, ${order} Latter-day President`);
   card.appendChild(image);
 
 
   document.querySelector('div.cards').appendChild(card);
-
 }
