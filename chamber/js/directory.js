@@ -1,3 +1,13 @@
+document.querySelector('.grid-button').addEventListener("click", () => {
+    document.querySelector(".cards").classList.add("grid-layout");
+    document.querySelector(".cards").classList.add("list-layout");
+}, false);
+
+document.querySelector('.list-button').addEventListener("click", () => {
+    document.querySelector(".cards").classList.add("list-layout");
+    document.querySelector(".cards").classList.add("grid-layout");
+}, false);
+
 const requestURL = "https://pr0gramama.github.io/wdd230/chamber/data/data.json"
 
 fetch(requestURL)
@@ -35,11 +45,15 @@ function displayMembers(member) {
 
     
     // img
+    
     let logo = document.createElement('img');
+    logo.classList.add('member-logo');
     logo.setAttribute("src", member.logo);
-    logo.setAttribute('alt', `${member.name} Logo`);
+    logo.setAttribute("alt", `${member.name} Logo`);
+    logo.setAttribute("loading", "lazy");
     card.appendChild(logo);
     
     
     document.querySelector('div.cards').appendChild(card);
 }
+
