@@ -503,4 +503,60 @@ form label.top input:required:valid {
   border-left: #3c6e71 solid 8px;
 }
 
+/* ---------------Directory------------------ */
+#directory {
+  width: auto;
+}
 
+#directory-title {
+  text-align: center;
+}
+#view {
+  text-align: center;
+}
+.view-buttons {
+  text-align: center;
+  background-color: white;
+  cursor: pointer;
+  border: 5px solid var(--primary-color);
+  border-radius: 5px;
+  margin: 10px;
+}
+
+svg {
+  width: 50px;
+  height: 50px;
+  background: white;
+  color: #3c6e71;
+  margin: .5em;
+}
+
+.view-buttons:hover {
+  border: 5px solid var(--accent3-color);
+}
+.view-buttons:active {
+  border: 5px solid var(--accent3-color);
+}
+
+.cards {
+  display: grid;
+  margin: 1em;
+}
+.cards section {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 1.5fr 1fr;
+  padding: 10px;
+  align-items: center;
+}
+
+.cards section:nth-child(odd) {
+  background-color: #284b63;
+  color: white;
+}
+.cards section:nth-child(even) {
+  background-color: #d9d9d9;
+}
+
+.cards section img {
+  display: none;
+}

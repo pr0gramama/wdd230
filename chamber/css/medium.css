@@ -176,3 +176,8 @@
     transition: 1s ease;
   }
 }
+/* ---------------Directory---------- */
+ .cards grid-layout {
+   display: grid;
+   grid-template-columns: 2 1fr;
+ }
