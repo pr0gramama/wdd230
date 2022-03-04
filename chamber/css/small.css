@@ -506,11 +506,14 @@ form label.top input:required:valid {
 /* ---------------Directory------------------ */
 #directory {
   width: auto;
+  font-family: var(--paragraph-font);
 }
 
 #directory-title {
   text-align: center;
+  font-family: var(--heading-font);
 }
+
 #view {
   text-align: center;
 }
