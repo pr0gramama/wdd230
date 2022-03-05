@@ -512,14 +512,18 @@ form label.top input:required:valid {
 #directory-title {
   text-align: center;
   font-family: var(--heading-font);
+  font-size: 16pt;
+  color: #284b63;
+  margin-bottom: 10px;
 }
 
 #view {
   text-align: center;
 }
-.view-buttons {
+
+#view button {
   text-align: center;
-  background-color: white;
+  background-color: rgba(60, 110, 113, 0.15);
   cursor: pointer;
   border: 5px solid var(--primary-color);
   border-radius: 5px;
@@ -529,37 +533,54 @@ form label.top input:required:valid {
 svg {
   width: 50px;
   height: 50px;
-  background: white;
   color: #3c6e71;
   margin: .5em;
-}
-
-.view-buttons:hover {
-  border: 5px solid var(--accent3-color);
-}
-.view-buttons:active {
-  border: 5px solid var(--accent3-color);
-}
-
-.cards {
-  display: grid;
-  margin: 1em;
-}
-.cards section {
-  display: grid;
-  grid-template-columns: 0.5fr 2fr 1.5fr 1fr;
-  padding: 10px;
   align-items: center;
 }
 
-.cards section:nth-child(odd) {
+#view button:hover {
+  border: 8px solid var(--accent3-color);
+}
+
+#view button:focus {
+  border: 8px solid var(--accent3-color);
+}
+
+.member-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 20px;
+  padding: 2em;
+}
+.member-cards section {
+  background-color: #284b63;
+  color: white;
+  border: 5px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.member-list {
+  display: grid;
+
+}
+
+.member-list table {
+  padding: 10px;
+  
+}
+
+table:nth-child(odd) {
   background-color: #284b63;
   color: white;
 }
-.cards section:nth-child(even) {
+table:nth-child(even) {
   background-color: #d9d9d9;
 }
 
-.cards section img {
+/* .cards section img {
   display: none;
-}
+} */
