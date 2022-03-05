@@ -393,7 +393,6 @@ footer img {
   max-width: 100%;
   border-radius: 15px;
   border: 20px solid #bf4b3d;
-  /* transition: 1s ease; */
 }
 
 .photo {
@@ -415,7 +414,7 @@ footer img {
 
 /* ---------------Join------------------ */
 main {
-  padding: 0 2%;
+  padding: 0 3%;
   min-height: 20rem;
   font-family: var(--heading-font);
 }
@@ -503,6 +502,27 @@ form label.top input:required:valid {
   border-left: #3c6e71 solid 8px;
 }
 
+/*---------------Thank You-------------------- */
+#thankyou {
+  text-align: center;
+}
+
+#welcome {
+  text-align: center;
+  background-color: #bf4b3d;
+  color: white;
+  padding: 1em;
+  font-family: var(--paragraph-font);
+  border-radius: 5px;
+}
+#thankyou h2 {
+  text-align: center;
+}
+
+#contact-soon {
+  font-size: 16pt;
+}
+
 /* ---------------Directory------------------ */
 #directory {
   width: auto;
@@ -548,7 +568,7 @@ svg {
 
 .member-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
   padding: 2em;
 }
@@ -556,6 +576,7 @@ svg {
   background-color: #284b63;
   color: white;
   border: 5px solid black;
+  box-shadow: 4px 4px 6px gray;
   border-radius: 10px;
   padding: 10px;
   align-items: center;
