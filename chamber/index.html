@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css2?family=Overpass:wght@200&family=Saira+Semi+Condensed:wght@300&display=swap"
       rel="stylesheet"
     />
-    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon" />
     <title>Pinnacle Chamber of Commerce</title>
   </head>
   <body>
@@ -29,138 +29,180 @@
         <picture id="logo">
           <img
             src="../chamber/images/Pinnacle-Logo_webp.webp"
-            alt="Pinnacle City Chamber of Commerce Logo"  width="100"
+            alt="Pinnacle City Chamber of Commerce Logo"
+            width="100"
           />
         </picture>
         <h1>Pinnaccle Chamber of Commerce</h1>
-        <div id=social-media>
-          <a href="https://www.facebook.com" target="_blank" class="facebook"><img src="../chamber/images/facebook-logo.png" alt="facebook logo"></a>
-          <a href="https://www.linkedin.com" target="_blank" class="linkedin"><img src="../chamber/images/linkedin-logo.png" alt="linkedin logo"></a>
+        <div id="social-media">
+          <a href="https://www.facebook.com" target="_blank" class="facebook"
+            ><img src="../chamber/images/facebook-logo.png" alt="facebook logo"
+          /></a>
+          <a href="https://www.linkedin.com" target="_blank" class="linkedin"
+            ><img src="../chamber/images/linkedin-logo.png" alt="linkedin logo"
+          /></a>
         </div>
-          <nav id="nav">
-            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
-            <ul id="primaryNav">
-              <li class="active"><a href="../chamber/index.html">Home</a></li>
-              <li class="active">
-                <a href="../chamber/discover.html">Discover</a>
-              </li>
-              <li class="active">
-                <a href="../chamber/directory.html">Directory</a>
-              </li>
-              <li class="active">
-                <a href="../chamber/join.html">Join</a>
-              </li>
-              <li class="active">
-                <a href="#">Contact Us</a>
-              </li>
-            </ul>
-          </nav>
+        <nav id="nav">
+          <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+          <ul id="primaryNav">
+            <li class="active"><a href="../chamber/index.html">Home</a></li>
+            <li class="active">
+              <a href="../chamber/discover.html">Discover</a>
+            </li>
+            <li class="active">
+              <a href="../chamber/directory.html">Directory</a>
+            </li>
+            <li class="active">
+              <a href="../chamber/join.html">Join</a>
+            </li>
+            <li class="active">
+              <a href="#">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
       </section>
-        <div id="today-date">
-          <p><span id="currentdate"></span></p>
-        </div>
+      <div id="today-date">
+        <p><span id="currentdate"></span></p>
+      </div>
     </header>
-      <main>
-        <div class="home">
-          <section class="hero">
-            <picture>
-              <source srcset="../chamber/images/wdd230-org_medium.webp" media="(min-width: 512px) and (max-width: 1023px)">
-              <source srcset="../chamber/images/wdd230-org_large.webp" media="(min-width: 1024px)">
-              <img id="hero-image" src="../chamber/images/wdd230-org_small.webp" alt="Mountain on a sunny day with fluffy clouds in the blue sky">
-            </picture>
-            <div class="joinUs-btn">
-              <h2>Welcome to Pinnacle City</h2>
-              <button>Join the Chamber</button>
+    <main>
+      <div class="home">
+        <section class="hero">
+          <picture>
+            <source
+              srcset="../chamber/images/wdd230-org_medium.webp"
+              media="(min-width: 512px) and (max-width: 1023px)"
+            />
+            <source
+              srcset="../chamber/images/wdd230-org_large.webp"
+              media="(min-width: 1024px)"
+            />
+            <img
+              id="hero-image"
+              src="../chamber/images/wdd230-org_small.webp"
+              alt="Mountain on a sunny day with fluffy clouds in the blue sky"
+            />
+          </picture>
+          <div class="joinUs-btn">
+            <h2>Welcome to Pinnacle City</h2>
+            <a href="join.html"><button>Join the Chamber</button></a>
+          </div>
+        </section>
+        <div class="event">
+          <h2>Grand Opening</h2>
+          <img
+            src="../chamber/images/flower.jpg"
+            alt="Orange-red flower on a dusky-green succulent plant"
+          />
+          <p>🍀 Patricia's Plants 🍀</p>
+          <hr />
+          <p>Up to 50% off!</p>
+          <a href="#">more info ...</a>
+        </div>
+        <div class="weather">
+          <p>Weather</p>
+          <img
+            src="../chamber/images/weather.jpg"
+            alt="A photo of a weather forecast"
+          />
+          <hr />
+          <div>
+            <p>
+              <strong>Current:</strong><span id="currentTemp"> 38</span> &deg;F
+            </p>
+            <p><strong>Chance of Precipitation:</strong><span>0</span> %</p>
+            <p>
+              <strong>Wind:</strong><span id="wind"> 5</span> mph
+              <span id="windDirection">NW</span>
+            </p>
+            <p>
+              <strong>Wind Chill:</strong><span id="windchill"></span> &deg;F
+            </p>
+          </div>
+        </div>
+        <div class="news-release">
+          <section>
+            <h3>News Release</h3>
+            <div>
+              <p>
+                On Tuesday, Senator Dee Snyder paid a local business owner a
+                visit to discuss the impacts of inflation on food prices. Snyder
+                is introducing a bill that can help get our city's economy, and
+                those accross the nation, time to bounce back from inflation.
+              </p>
             </div>
           </section>
-          <div class="event">
-            <h2>Grand Opening</h2>
-            <img src="../chamber/images/flower.jpg" alt="Orange-red flower on a dusky-green succulent plant">
-            <p>🍀 Patricia's Plants 🍀</p>
-            <hr>
-            <p>Up to 50% off!</p>
-            <a href="#">more info ...</a>
-          </div>
-          <div class="weather">
-            <p>Weather</p>
-            <img src="../chamber/images/weather.jpg" alt="A photo of a weather forecast">
-            <hr>
-            <div>
-              <p><strong>Current:</strong><span id="currentTemp"> 38</span> &deg;F</p>
-              <p><strong>Chance of Precipitation:</strong><span>0</span> %</p>
-              <p><strong>Wind:</strong><span id="wind"> 5</span> mph <span id="windDirection">NW</span></p>
-              <p><strong>Wind Chill:</strong><span id="windchill"></span> &deg;F</p>
-            </div>
-          </div>
-          <div class="news-release">
-            <section>
-              <h3>News Release</h3>
-              <div>
-                <p>On Tuesday, Senator Dee Snyder paid a local business owner a visit to
-                discuss the impacts of inflation on food prices. Snyder is introducing
-                a bill that can help get our city's economy, and those accross the nation,
-                time to bounce back from inflation.</p>
-              </div>
-            </section>
-          </div>
-          <div class="join">
-            <button>Join Us!</button>
-            <p>Discover how to join Pinaccle City's Chamber and how it can benefit your organization!</p>
-          </div>
-          <div class="spotlight">
-            <section class="spotlight1">
-              <h4>Holtz Design</h4>
-              <img src="../chamber/images/web-dev.jpg" alt="A drawing of an open cardboard box with icons associated with tools used by web developers">
-              <p>Web Development Community Courses</p>
-              <hr>
-              <a href="#">holtz_design@funmail.com</a>
-              <p>(999)999-9999 | <a href="#">Website</a></p>
-            </section>
-            <section class="spotlight2">
-              <h4>Heather's Tethers</h4>
-              <img src="../chamber/images/wire-rings.jpg" alt="4 women's hands with silver wire-wrapped rings">
-              <p>Jewelry and gifts for friends and family.</p>
-              <hr>
-              <a href="#">heathers_tethers@funmail.com</a>
-              <p>(999)999-9999 | <a href="#">Website</a></p>
-            </section>
-            <section class="spotlight3">
-              <h4>Office Haven</h4>
-              <img src="../chamber/images/office-supplies.jpg" alt="A pen, a pair of scissors, a pad of sticy-notes, and a computer-mouse next to a laptop on a desk">
-              <p>"Everything for your office!"</p>
-              <hr>
-              <a href="#">office_haven@funmail.com</a>
-              <p>(999)999-9999 | <a href="#">Website</a></p>
-            </section>
+        </div>
+        <div class="join">
+          <a href="join.html"><button>Join Us!</button></a>
+          <p>
+            Discover how to join Pinaccle City's Chamber and how it can benefit
+            your organization!
+          </p>
+        </div>
+        <div class="spotlight">
+          <section class="spotlight1">
+            <h4>Holtz Design</h4>
+            <img
+              src="../chamber/images/web-dev.jpg"
+              alt="A drawing of an open cardboard box with icons associated with tools used by web developers"
+            />
+            <p>Web Development Community Courses</p>
+            <hr />
+            <a href="#">holtz_design@funmail.com</a>
+            <p>(999)999-9999 | <a href="#">Website</a></p>
+          </section>
+          <section class="spotlight2">
+            <h4>Heather's Tethers</h4>
+            <img
+              src="../chamber/images/wire-rings.jpg"
+              alt="4 women's hands with silver wire-wrapped rings"
+            />
+            <p>Jewelry and gifts for friends and family.</p>
+            <hr />
+            <a href="#">heathers_tethers@funmail.com</a>
+            <p>(999)999-9999 | <a href="#">Website</a></p>
+          </section>
+          <section class="spotlight3">
+            <h4>Office Haven</h4>
+            <img
+              src="../chamber/images/office-supplies.jpg"
+              alt="A pen, a pair of scissors, a pad of sticy-notes, and a computer-mouse next to a laptop on a desk"
+            />
+            <p>"Everything for your office!"</p>
+            <hr />
+            <a href="#">office_haven@funmail.com</a>
+            <p>(999)999-9999 | <a href="#">Website</a></p>
+          </section>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-upper">
+        <div class="name-address">
+          <img src="../chamber/images/Pinnacle-Logo.png" alt="Pinnaccle Logo" />
+          <p class="site-name">Pinnacle City Chamber of Commerce</p>
+          <div class="address">
+            <p>42 Wallaby Way</p>
+            <p>Pinnacle City, UT 94444</p>
           </div>
         </div>
-      </main>
-      <footer>
-        <div class="footer-upper">
-          <div class="name-address">
-            <img src="../chamber/images/Pinnacle-Logo.png" alt="Pinnaccle Logo">
-            <p class="site-name">Pinnacle City Chamber of Commerce</p>
-            <div class="address">
-              <p>42 Wallaby Way</p>
-              <p>Pinnacle City, UT 94444</p>
-            </div>
-          </div>
-          <div class="contact-info">
-            <p class="email">info@pinnacle.org</p>
-            <p class="phone">(700) 833-1337</p>
-            <p class="location">📍 Location Map</p>
-          </div>
+        <div class="contact-info">
+          <p class="email">info@pinnacle.org</p>
+          <p class="phone">(700) 833-1337</p>
+          <p class="location">📍 Location Map</p>
         </div>
-        <hr>
-        <div class="footer-lower">
-          <div class="copywrite-footer">
-            &copy; <span id="currentyear"></span> Pinnacle Chamber
-          </div>
-          <p class="my-name">Mary Ann Overson </p>
-          <p class="wdd-project">WDD 230 Project</p>
+      </div>
+      <hr />
+      <div class="footer-lower">
+        <div class="copywrite-footer">
+          &copy; <span id="currentyear"></span> Pinnacle Chamber
         </div>
-        <div id="lastModified"></div>
-      </footer>
+        <p class="my-name">Mary Ann Overson</p>
+        <p class="wdd-project">WDD 230 Project</p>
+      </div>
+      <div id="lastModified"></div>
+    </footer>
     <script src="../chamber/js/script.js"></script>
     <script src="../chamber/js/windchill.js"></script>
   </body>
