@@ -172,6 +172,7 @@ nav ul.open {
   color: white;
   box-shadow: 4px 4px 6px var(--accent1-color);
 }
+
 .hero {
   position: relative;
 }
@@ -244,6 +245,7 @@ nav ul.open {
   text-shadow: 0 0 8px white;
   margin-bottom: 10px;
 }
+
 .news-release p {
   font-size: 22px;
 }
@@ -300,10 +302,12 @@ nav ul.open {
   margin-top: -15px;
   max-width: 60%;
 }
+
 .spotlight3 {
   display: none;
 }
 
+/* ----------------Footer------------- */
 footer {
   text-align: center;
   padding: 1em;
@@ -433,6 +437,7 @@ form legend {
   border-radius: 6px;
   box-shadow: grey 4px 4px 6px;
 }
+
 form label.top,
 form div {
   display: block;
@@ -473,10 +478,6 @@ form label.sbs {
   padding: 0.75rem 0;
 }
 
-/* form labelhover {
-  background-color: #3c6e71;
-} */
-
 form input.submitBtn {
   border: none;
   background-color: var(--accent3-color);
@@ -514,6 +515,7 @@ form label.top input:required:valid {
   font-family: var(--paragraph-font);
   border-radius: 5px;
 }
+
 #thankyou h2 {
   text-align: center;
 }
@@ -571,6 +573,7 @@ svg {
   gap: 20px;
   padding: 2em;
 }
+
 .member-cards section {
   background-color: #284b63;
   color: white;
