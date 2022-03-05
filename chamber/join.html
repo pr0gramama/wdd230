@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css2?family=Overpass:wght@200&family=Saira+Semi+Condensed:wght@300&display=swap"
       rel="stylesheet"
     />
-    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon" />
     <title>Pinnacle Chamber of Commerce - Join</title>
   </head>
   <body>
@@ -46,18 +46,18 @@
           <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
           <ul id="primaryNav">
             <li class="active"><a href="../chamber/index.html">Home</a></li>
-              <li class="active">
-                <a href="../chamber/discover.html">Discover</a>
-              </li>
-              <li class="active">
-                <a href="../chamber/directory.html">Directory</a>
-              </li>
-              <li class="active">
-                <a href="../chamber/join.html">Join</a>
-              </li>
-              <li class="active">
-                <a href="#">Contact Us</a>
-              </li>
+            <li class="active">
+              <a href="../chamber/discover.html">Discover</a>
+            </li>
+            <li class="active">
+              <a href="../chamber/directory.html">Directory</a>
+            </li>
+            <li class="active">
+              <a href="../chamber/join.html">Join</a>
+            </li>
+            <li class="active">
+              <a href="#">Contact Us</a>
+            </li>
           </ul>
         </nav>
       </section>
@@ -67,84 +67,92 @@
     </header>
     <main>
       <form method="get" action="thankyou.html">
-        <fieldset>
-          <legend>Primary Contact Information</legend>
-          <label class="top"
-            >First Name*<input type="text" name="fname" required
-          /></label>
-          <label class="top"
-            >Last Name*<input type="text" name="lname" required
-          /></label>
-          <label class="top"
-            >Phone*<input
-              type="tel"
-              name="phone"
-              placeholder="1235551234"
-              required
-          /></label>
-          <label class="top"
-            >Business Position<input
-              type="text"
-              name="code-mark"
-              pattern="[A-Za-z\s-]{7,}"
-              title="The Code Mark"
-          /></label>
-          <label class="top"
-            >Email*<input
-              type="email"
-              name="email"
-              placeholder="someone@gmail.com"
-              required
-          /></label>
-        </fieldset>
-        <fieldset>
-          <legend>Business Information</legend>
-          <label class="top"
-            >Name of Business<input type="text" name="text" required
-          /></label>
-          <label class="top"
-            >Tell us about your business:
-            <textarea
-              name="description"
-              id="description"
-              cols="30"
-              rows="10"
-            ></textarea>
-          </label>
-        </fieldset>
-        <fieldset>
-          <legend>Membership</legend>
-          <div>Membership Level</div>
-          <label class="sbs"
-            ><input type="radio" name="audience" value="beginner" />
-            <span>Non Profit - no fee</span></label
-          >
-          <p class="benefits">
-            Free listing in our member directory and event calendar
-          </p>
-          <label class="sbs"
-            ><input type="radio" name="audience" value="intermediate" />
-            <span>Bronze - $20/month</span></label
-          >
-          <p class="benefits">
-            Free spotlight to advertise your business on our chamber website
-          </p>
-          <label class="sbs"
-            ><input type="radio" name="audience" value="beginner" />
-            <span>Silver - $30/month</span></label
-          >
-          <p class="benefits">
-            Free monthly luncheon and member forum with guest speakers
-          </p>
-          <label class="sbs"
-            ><input type="radio" name="audience" value="beginner" />
-            <span>Gold - $40/month</span></label
-          >
-          <p class="benefits">
-            Ribbon Cutting ceremony for your new business, open house,
-            anniversary, or remodel
-          </p>
-        </fieldset>
+        <div id="join-main">
+          <div class="prim-contact">
+            <fieldset>
+              <legend>Primary Contact Information</legend>
+              <label class="top"
+                >First Name*<input type="text" name="fname" required
+              /></label>
+              <label class="top"
+                >Last Name*<input type="text" name="lname" required
+              /></label>
+              <label class="top"
+                >Phone*<input
+                  type="tel"
+                  name="phone"
+                  placeholder="1235551234"
+                  required
+              /></label>
+              <label class="top"
+                >Business Position<input
+                  type="text"
+                  name="code-mark"
+                  pattern="[A-Za-z\s-]{7,}"
+                  title="The Code Mark"
+              /></label>
+              <label class="top"
+                >Email*<input
+                  type="email"
+                  name="email"
+                  placeholder="someone@gmail.com"
+                  required
+              /></label>
+            </fieldset>
+          </div>
+          <div class="business-info">
+            <fieldset>
+              <legend>Business Information</legend>
+              <label class="top"
+                >Name of Business<input type="text" name="text" required
+              /></label>
+              <label class="top"
+                >Tell us about your business:
+                <textarea
+                  name="description"
+                  id="description"
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </label>
+            </fieldset>
+          </div>
+          <div class="member-box">
+            <fieldset>
+              <legend>Membership</legend>
+              <div>Membership Level</div>
+              <label class="sbs"
+                ><input type="radio" name="audience" value="beginner" />
+                <span>Non Profit - no fee</span></label
+              >
+              <p class="benefits">
+                Free listing in our member directory and event calendar
+              </p>
+              <label class="sbs"
+                ><input type="radio" name="audience" value="intermediate" />
+                <span>Bronze - $20/month</span></label
+              >
+              <p class="benefits">
+                Free spotlight to advertise your business on our chamber website
+              </p>
+              <label class="sbs"
+                ><input type="radio" name="audience" value="beginner" />
+                <span>Silver - $30/month</span></label
+              >
+              <p class="benefits">
+                Free monthly luncheon and member forum with guest speakers
+              </p>
+              <label class="sbs"
+                ><input type="radio" name="audience" value="beginner" />
+                <span>Gold - $40/month</span></label
+              >
+              <p class="benefits">
+                Ribbon Cutting ceremony for your new business, open house,
+                anniversary, or remodel
+              </p>
+            </fieldset>
+          </div>
+        </div>
         <label
           ><input type="hidden" id="submitdate" name="submitdate" value=""
         /></label>

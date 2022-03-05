@@ -420,7 +420,6 @@ main {
 }
 
 form fieldset {
-  margin: 2rem 0;
   border: 3px solid var(--primary-color);
   border-radius: 10px;
   padding: 0.5rem 2%;
@@ -465,8 +464,8 @@ form label span {
   border-radius: 8px;
 }
 
-.benefits {
-  display: none;
+.member-box {
+  display: block;
 }
 
 form label.sbs {
@@ -474,9 +473,9 @@ form label.sbs {
   padding: 0.75rem 0;
 }
 
-form labelhover {
+/* form labelhover {
   background-color: #3c6e71;
-}
+} */
 
 form input.submitBtn {
   border: none;
@@ -484,7 +483,7 @@ form input.submitBtn {
   color: white;
   border-radius: 1rem;
   padding: 0.75rem;
-  margin: 0 0 3rem 2%;
+  margin: 1em;
   width: 96%;
   max-width: 20rem;
   font-size: 15pt;
@@ -581,27 +580,21 @@ svg {
   padding: 10px;
   align-items: center;
   text-align: center;
-  
 }
 
 .member-list {
   display: grid;
-
 }
 
 .member-list table {
   padding: 10px;
-  
 }
 
 table:nth-child(odd) {
   background-color: #284b63;
   color: white;
 }
+
 table:nth-child(even) {
   background-color: #d9d9d9;
 }
-
-/* .cards section img {
-  display: none;
-} */
