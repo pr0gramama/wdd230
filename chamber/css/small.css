@@ -602,3 +602,98 @@ table:nth-child(odd) {
 table:nth-child(even) {
   background-color: #d9d9d9;
 }
+
+/* -------------Contact Us--------------- */
+.contact-grid {
+  display: grid;
+  background-color: rgba(60, 110, 113, 0.15);
+  padding: 1em;
+  margin: 60px;
+}
+
+.help-grid {
+  outline: solid 3px var(--accent3-color);
+  padding:  15px;
+  background-color:var(--primary-color);
+  
+}
+
+.help-headline {
+  font-family: var(--heading-font);
+  font-size: 20pt;
+  color: white;
+  margin-top: 0px;
+  text-align: center;
+  margin-bottom: -10px;
+}
+
+.help-paragraph {
+  color: white;
+  font-family: var(--paragraph-font);
+  font-size: 14pt;
+  text-align: center;
+  margin: 1em;
+}
+
+form {
+  outline: solid 3px var(--accent3-color); /*Olivine*/;
+  padding:  15px;
+  background-color: #c7eff1;
+  
+}
+
+.help-image {
+  max-width: 100%;
+  text-align: center;
+}
+
+input {
+  font-family: var(--paragraph-font);
+  font-size: 14pt;
+  border-style: none;
+  margin-top: 5px;
+  width: 100%;
+  padding: 1em;
+}
+
+textarea {
+  font-family: var(--paragraph-font);
+  font-size: 14pt;
+  border-style: none;
+  margin-top: 5px;
+  height: 300px;
+  width: 100%;
+  padding: 1em;
+}
+button {
+  color: white;
+  background-color: var(--accent3-color);
+  display: flex;
+  padding: 6px 18px;
+  font-family: var(--heading-font);
+  font-size: 16pt;
+  float: right;
+  border: none;
+  border-radius: 6px;
+}
+
+button:hover {
+  background-color: #9A031E;
+}
+
+.contact-info {
+  margin-top: 40px;
+}
+
+.email {
+  font-family: var(--heading-font);
+  font-size: 18pt;
+}
+
+.email a {
+  color: #284b63;
+}
+
+.email a:hover {
+  color: var(--accent3-color);
+}
