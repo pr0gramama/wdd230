@@ -259,8 +259,9 @@ nav ul.open {
   text-align: center;
 }
 
+
 .weather img {
-  max-width: 50%;
+  width: 100%;
 }
 
 .spotlight {

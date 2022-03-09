@@ -101,22 +101,22 @@
         </div>
         <div class="weather">
           <p>Weather</p>
-          <img
-            src="../chamber/images/weather.jpg"
-            alt="A photo of a weather forecast"
-          />
+          <span id="icon-src"></span>
+          <figure>
+            <img src="" alt="" id="weathericon"/>  
+            <figcaption></figcaption>
+          </figure>
           <hr />
           <div>
             <p>
-              <strong>Current:</strong><span id="currentTemp"> 38</span> &deg;F
+              <strong>Current: </strong><span id="current-temp"></span> &deg;F
             </p>
-            <p><strong>Chance of Precipitation:</strong><span>0</span> %</p>
+            
             <p>
-              <strong>Wind:</strong><span id="wind"> 5</span> mph
-              <span id="windDirection">NW</span>
+              <strong>Wind: </strong><span id="wind"></span> mph
             </p>
             <p>
-              <strong>Wind Chill:</strong><span id="windchill"></span> &deg;F
+              <strong>Wind Chill: </strong><span id="windchill"></span> &deg;F
             </p>
           </div>
         </div>
@@ -205,5 +205,6 @@
     </footer>
     <script src="../chamber/js/script.js"></script>
     <script src="../chamber/js/windchill.js"></script>
+    <script src="../chamber/js/weather.js"></script>
   </body>
 </html>
