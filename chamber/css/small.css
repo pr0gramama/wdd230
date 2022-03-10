@@ -602,3 +602,36 @@ table:nth-child(odd) {
 table:nth-child(even) {
   background-color: #d9d9d9;
 }
+
+/* ----------------Contact Us-------------- */
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: rgba(60, 110, 113, 0.15); 
+  padding: 1em;
+  margin: 60px
+}
+
+.help-grid {
+  outline: solid 3px #bf4b3d;
+  padding:  15px;
+  background-color:#3c6e71;
+  margin-right: -8px;
+  color: white;
+}
+
+.help-headline {
+  text-align: center;
+  font-size: 20pt;
+  
+}
+
+.help-paragraph {
+  text-align: center;
+  font-size: 16pt;
+  margin: 1em;
+}
+.help-image {
+  text-align: center;
+  max-width: 200px;
+}

@@ -24,6 +24,11 @@ fetch(requestURL)
         memlist.innerHTML = ""
         
     });
+
+    if(window.innerWidth>512&&window.innerWidth<1024) {
+        members.forEach(displayMembersList)
+        cards.innerHTML = ""
+    }
 })
 
 function displayMembers(member) {
