@@ -9,13 +9,16 @@ fetch(apiURL)
     
 
     const iconsrc= `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
-    const desc = jsObject.weather[0].description; 
+    let desc = jsObject.weather[0].description; 
     // document.querySelector('#icon-src').textContent = iconsrc;
     document.querySelector('#weathericon').setAttribute('src', iconsrc);
     document.querySelector('#weathericon').setAttribute('alt', desc);
+    desc = desc.split(' ').map(capitalize).join(' ');
     document.querySelector('figcaption').textContent = desc;
 
     document.querySelector('#wind').textContent = jsObject.wind.speed;
     });
 
-    
+function capitalize(word) {
+    return `${word.charAt(0).toUpperCase()}${word.slice(1)}`;
+}
