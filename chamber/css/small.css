@@ -605,33 +605,94 @@ table:nth-child(even) {
 
 /* ----------------Contact Us-------------- */
 .contact-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  background-color: rgba(60, 110, 113, 0.15); 
+  display: flex;
+  flex-direction: column;
   padding: 1em;
-  margin: 60px
+  background-color: rgba(60, 110, 113, 0.15);
 }
 
 .help-grid {
-  outline: solid 3px #bf4b3d;
   padding:  15px;
-  background-color:#3c6e71;
-  margin-right: -8px;
-  color: white;
+  color: var(--accent1-color);
 }
 
 .help-headline {
   text-align: center;
-  font-size: 20pt;
-  
+  font-size: 26pt;
+  color: #bf4b3d;
 }
 
 .help-paragraph {
   text-align: center;
+  font-family: var(--paragraph-font);
   font-size: 16pt;
+  font-weight: bold;
   margin: 1em;
 }
+
 .help-image {
   text-align: center;
-  max-width: 200px;
+}
+
+.help-image img {
+  border: solid 5px #bf4b3d;
+}
+
+.name-form {
+  padding: .5em;
+  background-color: rgba(60, 110, 113, 0.4); 
+  color: var(--accent3-color);
+  font-weight: bold;
+}
+
+#contact-name,
+#contact-email,
+#contact-question {
+  border: none;
+  border-radius: 6px;
+  font-family: var(--paragraph-font);
+  padding: 8px;
+  width: 100%;
+  border-left: solid 8px var(--accent3-color);
+  margin-bottom: 15px;
+}
+
+.cont-sbmt {
+  font-size: 18pt;
+}
+
+textarea {
+  height: 200px;
+  width: 100%;
+}
+
+#contact-submit button{
+  display: flex;
+  float: right;
+  padding: 6px 18px;
+  font-family: var(--heading-font);
+  font-size: 18pt;
+  color: white;
+  background-color: var(--accent3-color);
+  border: none;
+  border-radius: 8px;
+  margin-top: -15px;
+  margin-right: 15px;
+}
+
+#contact-submit button:hover {
+  background-color: #3c6e71;
+}
+
+.chamber-email {
+  text-align: center;
+  font-family: var(--paragraph-font);
+  font-style: italic;
+  font-size: 14pt;
+  color: white;
+  margin-top: 50px;
+}
+
+.chamber-email p a {
+  color: #bf4b3d;
 }

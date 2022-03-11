@@ -85,34 +85,41 @@
                 />
               </div>
             </div>
-            <form class="name-form" action="submit.html" method="GET">
-              <input
-                type="text"
-                name="name"
-                id="name"
-                placeholder="Name"
-                required
-              />
-              <input
-                type="email"
-                name="email"
-                id="email"
-                placeholder="Email"
-                required
-              />
-              <textarea
-                id="question"
-                name="question"
-                placeholder="Your Question/Comment"
-                required
-              ></textarea>
-              <button type="submit" name="submit">
-                Contact Us
-              </button>
-              <div class="contact-info">
-                <p class="email">
+            <form class="name-form" action="contact-submit.html" method="GET">
+              <label class="cont-sbmt">Name:
+                <input
+                  type="text"
+                  name="name"
+                  id="contact-name"
+                  required
+                />
+              </label>
+              <label class="cont-sbmt">Email:
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="someone@gmail.com"
+                  id="contact-email"
+                  required
+                />
+              </label>
+              <label class="cont-sbmt">
+                Your question/comment:
+                <textarea
+                  id="contact-question"
+                  name="question"
+                  required
+                ></textarea>
+              </label>
+              <div id="contact-submit">
+                <button type="submit" name="submit">
+                  Contact Us
+                </button>
+              </div>
+              <div class="chamber-email">
+                <p>
                   You can also email us at: 
-                  <a href = "info@pinnacle.org">info@pinnacle.org</a>
+                  <a href= "info@pinnacle.org">info@pinnacle.org</a>
                 </p>
               </div>
             </form>
@@ -145,7 +152,6 @@
       <div id="lastModified"></div>
     </footer>
     <script src="../chamber/js/script.js"></script>
-    <script src="../chamber/js/windchill.js"></script>
     <script src="../chamber/js/weather.js"></script>
   </body>
 </html>
