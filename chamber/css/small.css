@@ -344,6 +344,13 @@ footer img {
   font-size: 10pt;
   margin-top: 8px;
 }
+footer .location {
+  color: yellow;
+}
+
+footer .location:hover {
+  color: red;
+}
 
 .footer-lower {
   margin-top: 10px;
