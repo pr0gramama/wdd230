@@ -21,6 +21,7 @@ fetch(requestURL)
 function displaySpot1(member) {
     if (member.name === "Sigurd Semiconductor") {
         let levelmem = document.createElement("p");
+        levelmem.classList.add("spots")
         levelmem.textContent = `${member.level} Member`;
         spotlight1.appendChild(levelmem);
     } 
@@ -28,6 +29,7 @@ function displaySpot1(member) {
 function displaySpot2(member) {
     if (member.name === "Heather's Tethers") {
         let levelmem = document.createElement("p");
+        levelmem.classList.add("spots")
         levelmem.textContent = `${member.level} Member`;
         spotlight2.appendChild(levelmem);
     } 
@@ -35,6 +37,7 @@ function displaySpot2(member) {
 function displaySpot3(member) {
     if (member.name === "Office Haven") {
         let levelmem = document.createElement("p");
+        levelmem.classList.add("spots")
         levelmem.textContent = `${member.level} Member`;
         spotlight3.appendChild(levelmem);
     } 
