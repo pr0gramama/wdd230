@@ -5,84 +5,96 @@
         "address": "2201 Lake View Dr., Pinnacle City, Utah",
         "phone": "(801)999-9999",
         "website": "https://patricias.plants.com",
-        "logo": "images/patriciaplant.png"
+        "logo": "images/patriciaplant.png",
+        "level": "Silver"
       },
       {
         "name": "Big Jim's Transort",
         "address": "5500 Frontage Rd, Pinnacle City, Utah",
         "phone": "(801)999-9999",
         "website": "https://bigjimstransport.com",
-        "logo": "images/big-jims-transport.png"
+        "logo": "images/big-jims-transport.png",
+        "level": "Silver"
       },
       {
         "name": "Heather's Tethers",
         "address": "498 E Tritoma Way., Pinnacle City, Utah",
         "phone": "(801)999-9999",
         "website": "https://heatherstethers.com",
-        "logo": "images/heathers.png"
+        "logo": "images/heathers.png",
+        "level": "Silver"
       },
       {
         "name": "Change Rehabilitation Center",
         "address": "82 Chancelor Drive, Pinnacle City, Utah",
         "phone": "(801)999-9999",
         "website": "https://changerehabcenter.com",
-        "logo": "images/change-rehab.png"
+        "logo": "images/change-rehab.png",
+        "level": "Non-profit"
       },
       {
         "name": "Cob's Farm Supplies",
         "address": "986 Calico Ave, Pinnacle City, Utah",
         "phone": "(801)999-9999",
         "website": "https://cobsfarmsupplies.com",
-        "logo": "images/cobs-farm.png"
+        "logo": "images/cobs-farm.png",
+        "level": "Bronze"
       },
       {
         "name": "Credence Financial",
         "address": "1202 Lake View Dr., Pinnacle City, Utah",
         "phone": "(801)999-9999",
         "website": "https://credencefinancial.com",
-        "logo": "images/credence-finance.png"
+        "logo": "images/credence-finance.png",
+        "level": "Bronze"
       },
       {
         "name": "Danske Accounting Group",
         "address": "43 Commerce Way, Pinnacle City, Utah",
         "phone": "(801)999-9999",
         "website": "https://danskeaccounting.com",
-        "logo": "images/danske-accounting.png"
+        "logo": "images/danske-accounting.png",
+        "level": "Bronze"
       },
       {
         "name": "Dewey, Cheetum & Howe Law Specialists",
         "address": "9223 Peak Street, Pinnacle City, Utah",
         "phone": "(801)999-9999",
         "website": "https://deweylaw.com",
-        "logo": "images/dewey-law.png"
+        "logo": "images/dewey-law.png",
+        "level": "Silver"
       },
       {
         "name": "Office Haven",
         "address": "75 Warehouse Ave., Pinnacle City, Utah",
         "phone": "(801)999-9999",
         "website": "https://officehaven.com",
-        "logo": "images/office-haven.png"
+        "logo": "images/office-haven.png",
+        "level": "Gold"
       },
       {
         "name": "Sigurd Semiconductor",
         "address": "1337 Tech Rd., Pinnacle City, Utah",
         "phone": "(801)999-9999",
         "website": "https://sigurdsemiconductor.com",
-        "logo": "images/sigurd-semicon.png"
+        "logo": "images/sigurd-semicon.png",
+        "level": "Gold"
       },
       {
         "name": "Tiny Travel Company",
         "address": "9052 Cascade Rd., Pinnacle City, Utah",
         "phone": "(801)999-9999",
         "website": "https://tinytravelcompany.com",
-        "logo": "images/tiny-travel.png"
+        "logo": "images/tiny-travel.png",
+        "level": "Bronze"
       },
       {
         "name": "Milky's Dairy",
         "address": "3303 Lake View Dr., Pinnacle City, Utah",
         "phone": "(801)999-9999",
         "website": "https://milkysdairy.com",
-        "logo": "images/milkys-dairy.png"
+        "logo": "images/milkys-dairy.png",
+        "level": "Silver"
       }
     ]
 }
