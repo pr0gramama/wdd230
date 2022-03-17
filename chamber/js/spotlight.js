@@ -22,20 +22,20 @@ function displaySpot1(member) {
     if (member.name === "Sigurd Semiconductor") {
         let levelmem = document.createElement("p");
         levelmem.textContent = `${member.level} Member`;
-        spotlight1.appendChild(levelmem)
+        spotlight1.appendChild(levelmem);
     } 
 }
 function displaySpot2(member) {
     if (member.name === "Heather's Tethers") {
         let levelmem = document.createElement("p");
         levelmem.textContent = `${member.level} Member`;
-        spotlight2.appendChild(levelmem)
+        spotlight2.appendChild(levelmem);
     } 
 }
 function displaySpot3(member) {
-    if (member.name === "Heather's Tethers") {
+    if (member.name === "Office Haven") {
         let levelmem = document.createElement("p");
         levelmem.textContent = `${member.level} Member`;
-        spotlight3.appendChild(levelmem)
+        spotlight3.appendChild(levelmem);
     } 
 }
