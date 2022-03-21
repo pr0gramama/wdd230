@@ -659,7 +659,7 @@ table:nth-child(even) {
 }
 
 .help-image img {
-  border: solid 5px #bf4b3d;
+  border: solid 5px var(--primary-color);
 }
 
 .name-form {
