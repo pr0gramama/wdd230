@@ -152,6 +152,21 @@
     margin-top: -50px;
   }
 
-  /*------------nextpage---------*/
+  /*------------Contact Us---------*/
+  .contact-grid {
+    display: flex;
+    flex-direction: row;
+  }
 
+  .help-grid {
+    width: 50%;
+  }
+
+  .name-form {
+    width: 50%;
+  }
+
+  #map iframe {
+    height: 450px;
+  }
 }

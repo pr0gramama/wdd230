@@ -720,3 +720,25 @@ textarea {
 .chamber-email p a {
   color: #bf4b3d;
 }
+
+#map {
+  border:rgba(60, 110, 113, 0.9);
+  text-align: center;
+  padding: 1em;
+  background-color: rgba(60, 110, 113, 0.4);
+}
+#map iframe {
+  width: 75%;
+  height: 200px;
+  border: solid 4px rgba(60, 110, 113, 0.9);
+  margin-bottom: 30px;
+}
+#locale-address {
+  margin: 1em;
+}
+
+#locale-address h3 {
+  font-family: var(--heading-font);
+  font-size: 18pt;
+  margin-bottom: 5px;
+}
